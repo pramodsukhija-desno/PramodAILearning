@@ -15,7 +15,7 @@ client = ChatCompletionsClient(
 response = client.complete(
     messages=[
         SystemMessage(""),
-        UserMessage("What is the capital of India?"),
+        UserMessage("What is the capital of Telangana?"),
     ],
     temperature=1,
     top_p=1,
